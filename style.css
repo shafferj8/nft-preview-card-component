@@ -9,6 +9,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .card {
@@ -16,8 +18,7 @@ body {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: 350px;
-    margin: 40px auto;
+    max-width: 350px;
 }
 
 .container {
@@ -106,4 +107,21 @@ hr {
 span {
     color: white;
     font-weight: 400;
+}
+
+span:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.image-eth:hover {
+    z-index: 7;
+    box-shadow: inset 0 0 0 1000px rgba(111, 222, 249, 0.2);
+    cursor:  pointer;
+    border-radius: 10px;
 }

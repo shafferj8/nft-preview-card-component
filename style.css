@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 40px auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 25px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 30px 0 30px;
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price-icon {
+    padding-left: 10px;
+    padding-right: 10px;
+    color:aqua;
+    width: 17px;
+    height: 17px;
+}
+
+.price, .time {
+    display: flex;
+    align-items: center;
+    color: aqua;
+}
+
+.clock-icon {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: hsl(215, 51%, 70%);
+    width: 17px;
+    height: 17px;
+}
+
+.days-left {
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    margin: 0 20px 0 0;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.creation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.creator {
+    color: hsl(215, 51%, 70%);
+}
+
+span {
+    color: white;
+    font-weight: 400;
+}
